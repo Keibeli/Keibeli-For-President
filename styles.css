@@ -1,0 +1,32 @@
+.name{
+    color:purple;
+    
+}
+img {
+    width:200px;
+
+    border:10px solid red;
+}
+.photo{
+     display: flex;
+    justify-content:space-between;   
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+body{ background-color: skyblue;
+}
+.vote{
+    text-align:center;
+}
+#pics img:hover {
+    -webkit-transform: rotate(160deg);
+            transform: rotate(160deg);
+}
